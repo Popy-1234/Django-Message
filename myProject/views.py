@@ -91,6 +91,8 @@ def createResumePage(request):
     else:
         return HttpResponse("You are not authorized to access this page")
     
+    #Profile Page...
+
 def profilePage(request):
     current_user = request.user
 
